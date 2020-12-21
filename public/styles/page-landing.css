@@ -1,0 +1,184 @@
+#teste #images-container{
+    background-image: url(/public/images/mobile-image-hero-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    height: 54vh;
+}
+
+#images-container header{
+    display: flex;
+    align-items: center;
+
+    padding: 4rem 0 0 1.4rem;
+}
+
+#images-container header img:nth-last-of-type(1){
+    cursor: pointer;
+}
+
+#images-container header h1{
+    text-align: center;
+    width: 30rem;
+
+    color: var(--White);
+    font-weight: 600;
+}
+
+#images-container #preview{
+    background: var(--Black);
+
+    height: 6.4rem;
+    width: 12.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    position: relative;
+    float: right;
+    top: 222px;
+}
+
+#images-container #preview img{
+    height: 6.4rem;
+    width: 12.8rem;
+
+    cursor: pointer;
+    object-fit: none;
+}
+
+#images-container #preview img:hover{
+    background: var(--Dark-Gray);
+}
+
+#presentation{
+    padding: 8rem 2.3rem;  
+    position: relative;
+}
+
+#presentation .available, .manufactured{
+    display: none;
+}
+
+#presentation h1{
+    font-size: 2.1em;
+}
+
+#presentation p{
+    margin-top: 2rem;
+
+    color: var(--Dark-Gray);
+    font-size: 13.5px;
+    line-height: 1.7;
+}
+
+#presentation button{
+   margin-top: 5rem;
+   width: 30rem;
+   
+   display: flex;
+   align-items: center;
+
+   border: none;
+   cursor: pointer;
+   outline: none;
+   background: none;
+
+   font-weight: 600;
+   font-size: 1.6rem;
+   letter-spacing: 1.2rem;
+}
+
+#presentation button:hover{
+    color: var(--Dark-Gray);
+}
+
+#presentation button img{
+    margin-left: 2.3rem;
+}
+
+#last-container #furniture{
+    padding: 4rem 2.3rem;
+}
+
+#last-container #furniture h1{
+    letter-spacing: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+#last-container #furniture p{
+    margin-top: 2rem;
+
+    color: var(--Dark-Gray);
+    font-size: 13.5px;
+    line-height: 1.7;
+}
+
+#last-container img{
+    width: 100%;
+}
+
+#last-container img:nth-child(2){
+    height: 100%;
+}
+
+#teste #images-container header span{
+    display: none;
+    opacity: 0;
+
+    color: var(--White);
+    cursor: pointer;
+
+    font-size: 1.4rem;
+}
+
+#teste #images-container header span:hover{
+    border-bottom: 3px solid var(--White);
+}
+
+/*Open Menu*/
+header #open-menu{
+    height: 15rem;
+    width: 100%;
+
+    background: var(--White);
+
+    position: absolute;
+    top: 0;
+
+    display: none;
+    opacity: 0;
+}
+header #open-menu .menu{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header #open-menu .menu img{
+    display: none;
+    opacity: 0;
+
+    width: 2rem;
+    height: 2rem;
+}
+
+#teste #images-container header #open-menu .menu span{
+    display: block;
+    opacity: 1;
+
+    font-weight: 600;
+    color: var(--Black);
+}
+
+#teste #images-container header #open-menu .menu span:hover{
+    border-bottom: 3px solid var(--Black);
+}
+
+
+
